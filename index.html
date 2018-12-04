@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee Game</title>
+  <link rel="shortcut icon" href="images/Dice-3D.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Click Below .. and let's roll !</h1>
+  <div class="row">
+    <div class="col-lg-4 col-sm-3">
+      <div class="card">
+        <h2>Player 1</h2>
+        <div class="card-body">
+          <img class="img1" src="images/dice6.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <button onclick="random();" class="btn btn-outline-danger btn-lg" type="button" name="button">Roll it</button>
+          <h5 id="Results" class="card-title">Results</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-3">
+      <div class="card">
+        <h2>Player 2</h2>
+        <div class="card-body">
+          <img class="img2" src="images/dice6.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="JavaS.js"></script>
+
+</body>
+
+</html>
